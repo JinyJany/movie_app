@@ -4,6 +4,10 @@ import LinesEllipsis from 'react-lines-ellipsis';
 import './Movie.css';
 
 
+function _movieFormClick (title){
+    console.log(title)
+}
+
 function Movie({title, poster, genres, synopsis}){
     return(
         <div className="Movie">

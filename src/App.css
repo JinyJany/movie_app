@@ -6,9 +6,30 @@
   font-size:14px;
 }
 
-.App__loading{
+.App__loading {
+  padding:200px;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
 }
